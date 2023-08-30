@@ -1,0 +1,7 @@
+.projects-swiper .swiper-pagination-bullet{
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border: 1px solid black;
+    margin: auto 7px !important;
+}
