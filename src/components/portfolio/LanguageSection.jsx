@@ -41,7 +41,19 @@ const LanguageSection = () => {
                   </span> */}
                 </p>
                 <p className='text-lg font-bold mb-2 md:mb-0'>
+                  Astro&nbsp;JS 
+                  {/* <span className='text-gray-600 tracking-tight ml-1 font-medium'>
+                    96%
+                  </span> */}
+                </p>
+                <p className='text-lg font-bold mb-2 md:mb-0'>
                   Quasar 
+                  {/* <span className='text-gray-600 tracking-tight ml-1 font-medium'>
+                    96%
+                  </span> */}
+                </p>
+                <p className='text-lg font-bold mb-2 md:mb-0'>
+                  Capacitor 
                   {/* <span className='text-gray-600 tracking-tight ml-1 font-medium'>
                     96%
                   </span> */}
@@ -100,12 +112,12 @@ const LanguageSection = () => {
                     96%
                   </span> */}
                 </p>
-                <p className='text-lg font-bold mb-2 md:mb-0'>
+                {/* <p className='text-lg font-bold mb-2 md:mb-0'>
                   MySQL 
-                  {/* <span className='text-gray-600 tracking-tight ml-1 font-medium'>
+                  <span className='text-gray-600 tracking-tight ml-1 font-medium'>
                     96%
-                  </span> */}
-                </p>
+                  </span>
+                </p> */}
               </div>
             </div>
 
@@ -126,6 +138,18 @@ const LanguageSection = () => {
                 </p>
                 <p className='text-lg font-bold mb-2 md:mb-0'>
                   VS Code
+                  {/* <span className='text-gray-600 tracking-tight ml-1 font-medium'>
+                    96%
+                  </span> */}
+                </p>
+                <p className='text-lg font-bold mb-2 md:mb-0'>
+                  Pycharm
+                  {/* <span className='text-gray-600 tracking-tight ml-1 font-medium'>
+                    96%
+                  </span> */}
+                </p>
+                <p className='text-lg font-bold mb-2 md:mb-0'>
+                  Postman
                   {/* <span className='text-gray-600 tracking-tight ml-1 font-medium'>
                     96%
                   </span> */}

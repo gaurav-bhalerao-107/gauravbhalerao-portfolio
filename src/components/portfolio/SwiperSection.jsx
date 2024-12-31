@@ -10,6 +10,8 @@ import LoginAuthImage from './../../assets/login_system.png';
 import FileSorterImage from './../../assets/file_sorter.png';
 import LoadersCollectionImage from './../../assets/loader_collections.png';
 import CovidTrackerImage from './../../assets/covid_tracker.png';
+import AcquirestroImage from "./../../assets/acquirestro.png";
+import ExpenseImage from "./../../assets/expense-tracker.png";
 
 import './portfolio.css'
 
@@ -37,14 +39,27 @@ const SwiperSection = () => {
               <SwiperSlide className=''>
                 <div className="">
                   <div className="">
-                    <img src={WeatherImage} width="100%" className='h-full lg:h-[500px]' alt="" />
+                    <img src={AcquirestroImage} width="100%" className='h-full lg:h-[500px]' alt="" />
                   </div>
                   <div className="">
-                    <div className="text-xl font-font-bold font-montserrat font-bold tracking-wide mt-2">Weather App</div>
-                    <div className="text-gray-600 font-medium font-montserrat tracking-wide">2019 - React&nbsp;JS</div>
+                    <div className="text-xl font-font-bold font-montserrat font-bold tracking-wide mt-2">Acquirestro</div>
+                    <div className="text-gray-600 font-medium font-montserrat tracking-wide">2024 - Vue&nbsp;JS, Flask, AWS</div>
                   </div>
                 </div>
               </SwiperSlide>
+
+              <SwiperSlide className=''>
+                <div className="">
+                  <div className="">
+                    <img src={ExpenseImage} width="100%" className='h-full lg:h-[500px]' alt="" />
+                  </div>
+                  <div className="">
+                    <div className="text-xl font-font-bold font-montserrat font-bold tracking-wide mt-2">Acquirestro</div>
+                    <div className="text-gray-600 font-medium font-montserrat tracking-wide">2024 - Vue&nbsp;JS, Quasar, Capacitor</div>
+                  </div>
+                </div>
+              </SwiperSlide>
+
               <SwiperSlide className=''>
                 <div className="">
                   <div className="">
@@ -56,7 +71,20 @@ const SwiperSection = () => {
                   </div>
                 </div>
               </SwiperSlide>
+
               <SwiperSlide className=''>
+                <div className="">
+                  <div className="">
+                    <img src={WeatherImage} width="100%" className='h-full lg:h-[500px]' alt="" />
+                  </div>
+                  <div className="">
+                    <div className="text-xl font-font-bold font-montserrat font-bold tracking-wide mt-2">Weather App</div>
+                    <div className="text-gray-600 font-medium font-montserrat tracking-wide">2019 - React&nbsp;JS</div>
+                  </div>
+                </div>
+              </SwiperSlide>
+              
+              {/* <SwiperSlide className=''>
                 <div className="">
                   <div className="">
                     <img src={LoginAuthImage} width="100%" className='h-full lg:h-[500px]' alt="" />
@@ -66,7 +94,8 @@ const SwiperSection = () => {
                     <div className="text-gray-600 font-medium font-montserrat tracking-wide">2022 - Vue&nbsp;JS, Quasar, Flask, AWS SES</div>
                   </div>
                 </div>
-              </SwiperSlide>
+              </SwiperSlide> */}
+
               <SwiperSlide className=''>
                 <div className="">
                   <div className="">
@@ -78,6 +107,7 @@ const SwiperSection = () => {
                   </div>
                 </div>
               </SwiperSlide>
+
               <SwiperSlide className=''>
                 <div className="">
                   <div className="">
@@ -89,7 +119,8 @@ const SwiperSection = () => {
                   </div>
                 </div>
               </SwiperSlide>
-              <SwiperSlide className=''>
+
+              {/* <SwiperSlide className=''>
                 <div className="">
                   <div className="">
                     <img src={CovidTrackerImage} width="100%" className='h-full lg:h-[500px]' alt="" />
@@ -99,7 +130,7 @@ const SwiperSection = () => {
                     <div className="text-gray-600 font-medium font-montserrat tracking-wide">2020 - React&nbsp;JS</div>
                   </div>
                 </div>
-              </SwiperSlide>
+              </SwiperSlide> */}
             </Swiper>
             <div className="swiper-custom-pagination text-center mt-2 sm:mt-0"/>
           </div>
