@@ -12,6 +12,7 @@ import LoadersCollectionImage from './../../assets/loader_collections.png';
 import CovidTrackerImage from './../../assets/covid_tracker.png';
 import AcquirestroImage from "./../../assets/acquirestro.png";
 import ExpenseImage from "./../../assets/expense-tracker.png";
+import TaskMinderImage from "./../../assets/taskminder.png";
 
 import './portfolio.css'
 
@@ -63,18 +64,6 @@ const SwiperSection = () => {
               <SwiperSlide className=''>
                 <div className="">
                   <div className="">
-                    <img src={BlobberImage} width="100%" className='h-full lg:h-[500px]' alt="" />
-                  </div>
-                  <div className="">
-                    <div className="text-xl font-font-bold font-montserrat font-bold tracking-wide mt-2">Blob Generator</div>
-                    <div className="text-gray-600 font-medium font-montserrat tracking-wide">2023 - Vue&nbsp;JS, Quasar</div>
-                  </div>
-                </div>
-              </SwiperSlide>
-
-              <SwiperSlide className=''>
-                <div className="">
-                  <div className="">
                     <img src={WeatherImage} width="100%" className='h-full lg:h-[500px]' alt="" />
                   </div>
                   <div className="">
@@ -83,18 +72,30 @@ const SwiperSection = () => {
                   </div>
                 </div>
               </SwiperSlide>
-              
-              {/* <SwiperSlide className=''>
+
+              <SwiperSlide className=''>
                 <div className="">
                   <div className="">
-                    <img src={LoginAuthImage} width="100%" className='h-full lg:h-[500px]' alt="" />
+                    <img src={TaskMinderImage} width="100%" className='h-full lg:h-[500px]' alt="" />
                   </div>
                   <div className="">
-                    <div className="text-xl font-font-bold font-montserrat font-bold tracking-wide mt-2">Authentication System</div>
-                    <div className="text-gray-600 font-medium font-montserrat tracking-wide">2022 - Vue&nbsp;JS, Quasar, Flask, AWS SES</div>
+                    <div className="text-xl font-font-bold font-montserrat font-bold tracking-wide mt-2">Task Minder</div>
+                    <div className="text-gray-600 font-medium font-montserrat tracking-wide">2024 - React&nbsp;JS</div>
                   </div>
                 </div>
-              </SwiperSlide> */}
+              </SwiperSlide>
+
+              <SwiperSlide className=''>
+                <div className="">
+                  <div className="">
+                    <img src={BlobberImage} width="100%" className='h-full lg:h-[500px]' alt="" />
+                  </div>
+                  <div className="">
+                    <div className="text-xl font-font-bold font-montserrat font-bold tracking-wide mt-2">Blob Generator</div>
+                    <div className="text-gray-600 font-medium font-montserrat tracking-wide">2023 - Vue&nbsp;JS, Quasar</div>
+                  </div>
+                </div>
+              </SwiperSlide>
 
               <SwiperSlide className=''>
                 <div className="">

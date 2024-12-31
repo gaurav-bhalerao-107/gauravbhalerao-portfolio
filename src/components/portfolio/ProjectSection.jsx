@@ -4,6 +4,7 @@ import BlobberImage from './../../assets/blobber.png';
 import LoginAuthImage from './../../assets/login_system.png';
 import AcquirestroImage from "./../../assets/acquirestro.png";
 import ExpenseImage from "./../../assets/expense-tracker.png";
+import TaskMinderImage from "./../../assets/taskminder.png";
 
 const ProjectSection = () => {
   return (
@@ -33,6 +34,16 @@ const ProjectSection = () => {
             </div>
 
             <div className="mb-10 lg:mb-0">
+              <a target='_blank' href="https://taskminderr.netlify.app/dashboard" className="">
+                <img className="border border-gray-200 cursor-pointer rounded w-full lg:w-64 xl:w-80 h-42 aspect-video hover:-translate-y-0 transition-all duration-500" alt="hero" src={TaskMinderImage} />
+              </a>
+              <div className="text-left mt-2 w-full lg:w-64 xl:w-80 font-montserrat tracking-wide">
+                <a className='text-xl font-bold' target='_blank' href="https://taskminderr.netlify.app/dashboard">Task Minder</a>
+                <p className='text-gray-600 font-medium'>2024 - React&nbsp;JS</p>
+              </div>
+            </div>
+
+            <div className="mb-10 lg:mb-0">
               <a target='_blank' href="https://blobber-gen.netlify.app/" className="">
                 <img className="border border-gray-200  cursor-pointer rounded w-full lg:w-64 xl:w-80 h-42 aspect-video hover:-translate-y-0 transition-all duration-500 object-contain" alt="hero" src={BlobberImage} />
               </a>
@@ -40,17 +51,7 @@ const ProjectSection = () => {
                 <a className='text-xl font-bold' target='_blank' href="https://blobber-gen.netlify.app/">Blobber</a>
                 <p className='text-gray-600 font-medium'>2023 - Vue&nbsp;JS, Quasar</p>
               </div>
-            </div>
-
-            <div className="mb-10 lg:mb-0">
-              <a target='_blank' href="https://true-weather-search.netlify.app/" className="">
-                <img className="border border-gray-200 cursor-pointer rounded w-full lg:w-64 xl:w-80 h-42 aspect-video hover:-translate-y-0 transition-all duration-500" alt="hero" src={WeatherImage} />
-              </a>
-              <div className="text-left mt-2 w-full lg:w-64 xl:w-80 font-montserrat tracking-wide">
-                <a className='text-xl font-bold' target='_blank' href="https://true-weather-search.netlify.app/">Weather App</a>
-                <p className='text-gray-600 font-medium'>2019 - React&nbsp;JS</p>
-              </div>
-            </div>
+            </div>            
           </div>
         </div>
       </div>
