@@ -34,11 +34,11 @@ const ProjectSection = () => {
             </div>
 
             <div className="mb-10 lg:mb-0">
-              <a target='_blank' href="https://taskminderr.netlify.app/dashboard" className="">
+              <a target='_blank' href="https://taskminderr.netlify.app/" className="">
                 <img className="border border-gray-200 cursor-pointer rounded w-full lg:w-64 xl:w-80 h-42 aspect-video hover:-translate-y-0 transition-all duration-500" alt="hero" src={TaskMinderImage} />
               </a>
               <div className="text-left mt-2 w-full lg:w-64 xl:w-80 font-montserrat tracking-wide">
-                <a className='text-xl font-bold' target='_blank' href="https://taskminderr.netlify.app/dashboard">Task Minder</a>
+                <a className='text-xl font-bold' target='_blank' href="https://taskminderr.netlify.app/">Task Minder</a>
                 <p className='text-gray-600 font-medium'>2024 - React&nbsp;JS</p>
               </div>
             </div>
